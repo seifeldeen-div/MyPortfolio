@@ -6,7 +6,7 @@ import { Shield, ChevronDown, Github, Linkedin, Mail } from "lucide-react"
 export default function HeroSection() {
   const [typedText, setTypedText] = useState("")
   const [showCursor, setShowCursor] = useState(true)
-  const fullText = "Engineer & React Frontend Developer"
+  const fullText = "Software Engineer & React Frontend Developer"
   const typingRef = useRef(0)
   const [mounted, setMounted] = useState(false)
 
@@ -101,8 +101,9 @@ export default function HeroSection() {
           <span className="mr-2 text-primary/70">{"$"}</span>
           <span className="text-muted-foreground">{typedText}</span>
           <span
-            className={`ml-0.5 inline-block h-5 w-[2px] bg-primary transition-opacity ${showCursor ? "opacity-100" : "opacity-0"
-              }`}
+            className={`ml-0.5 inline-block h-5 w-[2px] bg-primary transition-opacity ${
+              showCursor ? "opacity-100" : "opacity-0"
+            }`}
           />
         </div>
 
