@@ -97,7 +97,7 @@ export default function AboutSection() {
                   <User className="h-5 w-5" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground">Seif Eldeen Mohamed Attia</h3>
+                  <h3 className="font-semibold text-foreground">Seif Eldeen Mohamed</h3>
                   <p className="font-mono text-xs text-primary">Frontend Developer</p>
                 </div>
               </div>
