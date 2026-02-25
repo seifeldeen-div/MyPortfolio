@@ -6,7 +6,7 @@ import { User, MapPin, GraduationCap, Code2, Trophy, Terminal } from "lucide-rea
 const stats = [
   { label: "Projects Completed", value: 10, suffix: "+", icon: Code2 },
   { label: "Problems Solved", value: 200, suffix: "+", icon: Terminal },
-  { label: "Training Hours", value: 120, suffix: "+", icon: Trophy },
+  { label: "Training Hours", value: 225, suffix: "+", icon: Trophy },
 ]
 
 function AnimatedCounter({ target, suffix, isVisible }: { target: number; suffix: string; isVisible: boolean }) {
