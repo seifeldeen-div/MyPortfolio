@@ -30,7 +30,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-sans antialiased">
+      <body
+        className="font-sans antialiased"
+        cz-shortcut-listen="true"
+      >
         {children}
       </body>
     </html>

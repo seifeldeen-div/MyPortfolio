@@ -12,11 +12,13 @@ const skills = [
   { name: "C++", level: 70, category: "language", color: "240" },
   { name: "Bootstrap", level: 80, category: "framework", color: "260" },
   { name: "Git & GitHub", level: 85, category: "tool", color: "195" },
-  { name: "VS Code", level: 90, category: "tool", color: "210" },
+  { name: "Trae", level: 90, category: "tool", color: "210" },
+  { name: "VS Code", level: 95, category: "tool", color: "210" },
+  { name: "Cursor", level: 80, category: "tool", color: "195" },
   { name: "Responsive Design", level: 95, category: "concept", color: "195" },
   { name: "OOP", level: 80, category: "concept", color: "240" },
   { name: "Data Structures", level: 75, category: "concept", color: "220" },
-  { name: "Algorithm Design", level: 75, category: "concept", color: "260" },
+  { name: "Algorithm", level: 75, category: "concept", color: "260" },
 ]
 
 const categories = [

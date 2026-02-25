@@ -23,7 +23,7 @@ const timeline = [
     title: "Web Design Track",
     organization: "National Telecommunication Institute (NTI)",
     location: "Egypt",
-    date: "Dec 2025 - Present",
+    date: "Dec 2025 - Mar 2026",
     details: [
       "Completed 120+ hours of intensive training in HTML, CSS, JavaScript, and Bootstrap",
       "Built 6+ projects demonstrating proficiency in responsive design and modern web development practices",

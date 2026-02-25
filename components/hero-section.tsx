@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import { Shield, ChevronDown, Github, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin, Mail } from "lucide-react"
 
 export default function HeroSection() {
   const [typedText, setTypedText] = useState("")
@@ -80,11 +80,23 @@ export default function HeroSection() {
           Available for opportunities
         </div>
 
-        {/* Shield icon with animated ring */}
+        {/* React Atom icon with animated ring */}
         <div className="group relative mb-6">
           <div className="absolute -inset-2 animate-spin rounded-2xl border border-dashed border-primary/20" style={{ animationDuration: "12s" }} aria-hidden="true" />
           <div className="relative flex h-16 w-16 items-center justify-center rounded-2xl border border-primary/30 bg-primary/10 backdrop-blur-sm transition-all duration-500 hover:border-primary/60 hover:shadow-[0_0_30px_oklch(0.78_0.15_195/0.3)]">
-            <Shield className="h-8 w-8 text-primary" />
+            <svg
+              viewBox="-11.5 -10.232 23 20.463"
+              className="h-9 w-9 text-primary"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <circle r="2.05" />
+              <g stroke="currentColor" strokeWidth="1" fill="none">
+                <ellipse rx="11" ry="4.2" />
+                <ellipse rx="11" ry="4.2" transform="rotate(60)" />
+                <ellipse rx="11" ry="4.2" transform="rotate(120)" />
+              </g>
+            </svg>
           </div>
         </div>
 

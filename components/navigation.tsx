@@ -80,7 +80,7 @@ export default function Navigation() {
           className="group flex items-center gap-2"
         >
           <div className="flex h-10 w-10 items-center justify-center rounded-lg border border-primary/40 bg-primary/10 font-mono text-sm font-bold text-primary transition-all duration-300 group-hover:border-primary group-hover:shadow-[0_0_15px_oklch(0.78_0.15_195/0.3)]">
-            {"S.A"}
+            {"S.M"}
           </div>
           <span className="hidden font-mono text-sm text-muted-foreground sm:block">
             {"<SeifEldeen />"}

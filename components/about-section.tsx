@@ -66,7 +66,7 @@ export default function AboutSection() {
   const terminalLines = [
     { type: "command", text: '$ cat profile.json' },
     { type: "output", text: '{' },
-    { type: "output", text: '  "name": "Seif Eldeen M. Attia",' },
+    { type: "output", text: '  "name": "Seif Eldeen Mohamed",' },
     { type: "output", text: '  "role": "React Frontend Developer",' },
     { type: "output", text: '  "location": "Egypt",' },
     { type: "output", text: '  "languages": ["Arabic", "English", "French"],' },

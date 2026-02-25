@@ -50,7 +50,7 @@ export default function Footer() {
           <div className="text-center md:text-left">
             <div className="mb-2 flex items-center justify-center gap-2 md:justify-start">
               <div className="flex h-8 w-8 items-center justify-center rounded-md border border-primary/40 bg-primary/10 font-mono text-xs font-bold text-primary">
-                S.A
+                S.M
               </div>
               <span className="font-mono text-sm text-muted-foreground">
                 {"<SeifEldeen />"}
