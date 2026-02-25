@@ -103,11 +103,12 @@ export default function AboutSection() {
               </div>
 
               <p className="mb-6 leading-relaxed text-muted-foreground">
-                Highly motivated Computer Science student at Monufia University with
-                hands-on experience in web development and problem-solving. I am
-                passionate about creating responsive, user-friendly web applications
-                and continuously improving my skills through real-world projects and
-                competitive programming.
+                A highly motivated and detail-oriented professional with expertise in Front-End Development,
+                programming, and design. Skilled in problem-solving and driven by creating innovative solutions within
+                collaborative environments that enhance communication and teamwork. Experienced in delivering
+                high-quality results under tight deadlines, with a strong commitment to continuous learning
+                and professional growth. Eager to contribute effectively to real-world projects as a Front-End
+                Developer while consistently improving technical skills and adding value to clients.
               </p>
 
               <div className="flex flex-col gap-4">
