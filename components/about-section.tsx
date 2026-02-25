@@ -133,9 +133,8 @@ export default function AboutSection() {
                   {terminalLines.map((line, i) => (
                     <div
                       key={i}
-                      className={`transition-all duration-300 ${
-                        i <= activeTermLine ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2"
-                      }`}
+                      className={`transition-all duration-300 ${i <= activeTermLine ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2"
+                        }`}
                       style={{ transitionDelay: `${i * 100}ms` }}
                     >
                       {line.type === "command" ? (
