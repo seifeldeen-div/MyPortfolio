@@ -121,7 +121,7 @@ export default function HeroSection() {
 
         {/* Description */}
         <p className="mb-8 max-w-2xl text-pretty leading-relaxed text-muted-foreground">
-          Highly motivated Computer Science student at Monufia University with
+          Highly motivated software engineer with
           hands-on experience in web development and problem-solving. Completed
           10+ projects and solved 200+ programming challenges.
         </p>
