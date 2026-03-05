@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin, Mail, Download } from "lucide-react"
 
 export default function HeroSection() {
   const [typedText, setTypedText] = useState("")
@@ -138,6 +138,14 @@ export default function HeroSection() {
               {"->"}
             </span>
           </button>
+          <a
+            href="/myResume.pdf"
+            download="SeifeldeenCv.pdf"
+            className="group flex items-center gap-2 rounded-lg border border-primary/40 bg-transparent px-6 py-3 font-mono text-sm text-primary transition-all duration-300 hover:bg-primary/10 hover:shadow-[0_0_20px_oklch(0.78_0.15_195/0.15)]"
+          >
+            <Download className="h-4 w-4 transition-transform duration-300 group-hover:-translate-y-1" />
+            Download CV
+          </a>
           <button
             onClick={() => handleScroll("#contact")}
             className="flex items-center gap-2 rounded-lg border border-primary/40 bg-transparent px-6 py-3 font-mono text-sm text-primary transition-all duration-300 hover:bg-primary/10 hover:shadow-[0_0_20px_oklch(0.78_0.15_195/0.15)]"
