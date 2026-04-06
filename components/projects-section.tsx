@@ -1,49 +1,62 @@
 "use client"
 
 import { useState } from "react"
-import { ExternalLink, Github, Layers, Globe, ShoppingCart, Stethoscope } from "lucide-react"
+// import { ExternalLink, Github, Layers, Globe, ShoppingCart, Stethoscope } from "lucide-react"
+import {
+  ExternalLink,
+  Github,
+  Layers,
+  Globe,
+  ShoppingCart,
+  Stethoscope,
+  Droplet,
+  Heart,
+  Activity,
+  Plus,
+  Zap,
+} from "lucide-react"
 
 const projects = [
   {
-    title: "Learn Hub Platform",
-    description:
-      "Developed a fully responsive educational platform serving 100+ users with course listings, registration forms, and interactive content. Implemented mobile-first design achieving 98% cross-browser compatibility and 3-second average page load time.",
-    tools: ["HTML", "CSS", "JavaScript", "Git"],
-    github: "https://github.com/seifeldeen-div/learnHub-Platform",
-    live: "https://seifeldeen-div.github.io/learnHub-Platform/",
-    icon: Layers,
-    accent: "195",
-  },
-  {
-    title: "Food Lover Restaurant",
-    description:
-      "Developed a full-featured restaurant web application that simulates real-world online ordering and table booking. Includes user authentication, product listing with category filtering, a dynamic shopping cart with tax calculation, favorites system, and table reservation management.",
-    tools: ["HTML", "CSS", "JavaScript", "Git"],
-    github: "https://github.com/seifeldeen-div/food-lover-restaurant",
-    live: "https://seifeldeen-div.github.io/food-lover-restaurant/Restaurant%20web.html#home",
-    icon: ShoppingCart,
-    accent: "220",
-  },
-  {
-    title: "Leion Landing Page",
-    description:
-      "Developed a fully responsive and modern website template for creative agencies and freelance designers. Features a clean and user-friendly interface, smooth scrolling, mobile-friendly navigation, and dedicated sections for portfolio, services, about, and contact.",
-    tools: ["HTML", "CSS", "Git"],
-    github: "https://github.com/seifeldeen-div/Leion-landing-page",
-    live: "https://seifeldeen-div.github.io/Leion-landing-page/",
-    icon: Globe,
-    accent: "260",
-  },
-  {
-    title: "MediCare+ Clinic Landing Page",
+    title: "MediCare+ Clinic",
     description:
       "Designed MediCare+ Clinic to provide a seamless digital experience for patients and visitors, allowing easy access to medical specialties, doctor information, and appointment booking. Fully responsive with a modern and visually appealing interface.",
-    tools: ["HTML", "CSS", "JavaScript", "Git"],
+    tools: ["HTML", "CSS", "JavaScript", "Git" , "Git Hup"],
     github: "https://github.com/seifeldeen-div/MediaCare-Clinic",
     live: "https://seifeldeen-div.github.io/MediaCare-Clinic/",
     icon: Stethoscope,
     accent: "170",
   },
+  {
+    title: "Blood Bank System",
+    description:
+      "Blood Bank System is a front-end web application built to simplify the blood donation and management process. It allows users to register as donors, search for specific blood types, log in to their accounts, and view current blood stock levels — all through a clean and responsive interface.",
+    tools: ["HTML", "CSS", "JavaScript", "Git" , "Git Hup"],
+    github: "https://github.com/seifeldeen-div/Blood-Bank-System",
+    live: "https://blood-bank-system.github.io/Blood-Bank/",
+    icon: Droplet,
+    accent: "170",
+  },
+  {
+    title: "LUXI --Creative World",
+    description:
+      "LUMIS Studio — Landing PageBuilt a high-end agency landing page with a custom design system from scratch. Implemented advanced CSS animations including scroll-triggered reveals, animated grid background, floating color orbs with mouse parallax, and a custom dual-layer cursor with Lerp physics.",
+    tools: ["HTML", "CSS", "JavaScript", "Git" , "Git Hup"],
+    github: "https://github.com/seifeldeen-div/LUMS---CREATIVE-WORLD",
+    live: "https://seifeldeen-div.github.io/LUMS---CREATIVE-WORLD/",
+    icon: Zap,
+    accent: "170",
+  },
+  {
+    title: "SCHOLAR",
+    description:
+      "SCHOLAR is a modern, responsive educational website template designed for online learning platforms, training academies, and course providers. It features a clean and intuitive layout showcasing courses, instructors, services, events, and student testimonials.",
+    tools: ["HTML", "CSS", "JavaScript", "Git" , "Git Hup"],
+    github: "https://github.com/seifeldeen-div/SCHOLAR",
+    live: "https://seifeldeen-div.github.io/SCHOLAR/",
+    icon: Zap,
+    accent: "170",
+  }
 ]
 
 export default function ProjectsSection() {
