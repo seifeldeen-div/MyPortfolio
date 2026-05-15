@@ -14,6 +14,8 @@ import {
   Activity,
   Plus,
   Zap,
+  CloudLightning,
+  BookOpen,
 } from "lucide-react"
 
 const projects = [
@@ -54,7 +56,17 @@ const projects = [
     tools: ["HTML", "CSS", "JavaScript", "Git" , "Git Hup"],
     github: "https://github.com/seifeldeen-div/SCHOLAR",
     live: "https://seifeldeen-div.github.io/SCHOLAR/",
-    icon: Zap,
+    icon: BookOpen,
+    accent: "170",
+  },
+  {
+    title: "WeatherPro Web Mobile",
+    description:
+      "WeatherPro is a responsive weather web application that provides real-time weather updates using external APIs. The project allows users to search for any city worldwide and displays detailed weather information ",
+    tools: ["HTML", "CSS", "JavaScript", "Git" , "Git Hup"],
+    github: "https://github.com/seifeldeen-div/Weather-App",
+    live: "https://seifeldeen-div.github.io/Weather-App/",
+    icon: CloudLightning,
     accent: "170",
   }
 ]
