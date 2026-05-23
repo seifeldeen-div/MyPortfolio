@@ -16,6 +16,7 @@ import {
   Zap,
   CloudLightning,
   BookOpen,
+  GraduationCap,
 } from "lucide-react"
 
 const projects = [
@@ -23,7 +24,7 @@ const projects = [
     title: "MediCare+ Clinic",
     description:
       "Designed MediCare+ Clinic to provide a seamless digital experience for patients and visitors, allowing easy access to medical specialties, doctor information, and appointment booking. Fully responsive with a modern and visually appealing interface.",
-    tools: ["HTML", "CSS", "JavaScript", "Git" , "Git Hup"],
+    tools: ["HTML", "CSS", "JavaScript", "Git", "Git Hup"],
     github: "https://github.com/seifeldeen-div/MediaCare-Clinic",
     live: "https://seifeldeen-div.github.io/MediaCare-Clinic/",
     icon: Stethoscope,
@@ -33,7 +34,7 @@ const projects = [
     title: "Blood Bank System",
     description:
       "Blood Bank System is a front-end web application built to simplify the blood donation and management process. It allows users to register as donors, search for specific blood types, log in to their accounts, and view current blood stock levels — all through a clean and responsive interface.",
-    tools: ["HTML", "CSS", "JavaScript", "Git" , "Git Hup"],
+    tools: ["HTML", "CSS", "JavaScript", "Git", "Git Hup"],
     github: "https://github.com/seifeldeen-div/Blood-Bank-System",
     live: "https://blood-bank-system.github.io/Blood-Bank/",
     icon: Droplet,
@@ -43,7 +44,7 @@ const projects = [
     title: "LUXI --Creative World",
     description:
       "LUMIS Studio — Landing PageBuilt a high-end agency landing page with a custom design system from scratch. Implemented advanced CSS animations including scroll-triggered reveals, animated grid background, floating color orbs with mouse parallax, and a custom dual-layer cursor with Lerp physics.",
-    tools: ["HTML", "CSS", "JavaScript", "Git" , "Git Hup"],
+    tools: ["HTML", "CSS", "JavaScript", "Git", "Git Hup"],
     github: "https://github.com/seifeldeen-div/LUMS---CREATIVE-WORLD",
     live: "https://seifeldeen-div.github.io/LUMS---CREATIVE-WORLD/",
     icon: Zap,
@@ -53,7 +54,7 @@ const projects = [
     title: "SCHOLAR",
     description:
       "SCHOLAR is a modern, responsive educational website template designed for online learning platforms, training academies, and course providers. It features a clean and intuitive layout showcasing courses, instructors, services, events, and student testimonials.",
-    tools: ["HTML", "CSS", "JavaScript", "Git" , "Git Hup"],
+    tools: ["HTML", "CSS", "JavaScript", "Git", "Git Hup"],
     github: "https://github.com/seifeldeen-div/SCHOLAR",
     live: "https://seifeldeen-div.github.io/SCHOLAR/",
     icon: BookOpen,
@@ -63,10 +64,20 @@ const projects = [
     title: "WeatherPro Web Mobile",
     description:
       "WeatherPro is a responsive weather web application that provides real-time weather updates using external APIs. The project allows users to search for any city worldwide and displays detailed weather information ",
-    tools: ["HTML", "CSS", "JavaScript", "Git" , "Git Hup"],
+    tools: ["HTML", "CSS", "JavaScript", "Git", "Git Hup"],
     github: "https://github.com/seifeldeen-div/Weather-App",
     live: "https://seifeldeen-div.github.io/Weather-App/",
     icon: CloudLightning,
+    accent: "170",
+  },
+  {
+    title: "Learn Hub Platform",
+    description:
+      "Developed a fully responsive educational platform serving 100+ users with course listings, registration forms, and interactive content. Implemented mobile-first design achieving 98% cross-browser compatibility and 3-second average page load time.",
+    tools: ["HTML", "CSS", "JavaScript", "Git", "Git Hup"],
+    github: "https://github.com/seifeldeen-div/learnHub-Platform",
+    live: "https://seifeldeen-div.github.io/learnHub-Platform/",
+    icon: GraduationCap,
     accent: "170",
   }
 ]
