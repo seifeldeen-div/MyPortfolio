@@ -141,7 +141,7 @@ export default function ExperienceSection() {
 
                   {/* Content */}
                   <div
-                    className={`ml-16 w-full transition-all duration-700 md:ml-0 md:w-[calc(50%-2rem)] ${isLeft ? "md:pr-8" : "md:pl-8"
+                    className={`ml-10 w-full transition-all duration-700 md:ml-0 md:w-[calc(50%-2rem)] ${isLeft ? "md:pr-8" : "md:pl-8"
                       } ${isVis
                         ? "translate-y-0 opacity-100"
                         : `translate-y-8 opacity-0 ${isLeft ? "md:-translate-x-4" : "md:translate-x-4"}`
