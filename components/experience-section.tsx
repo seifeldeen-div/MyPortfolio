@@ -44,7 +44,7 @@ const timeline = [
       "Gained practical experience in debugging, DOM manipulation, and turning UI designs into functional web pages.",
       "Built 6+ projects demonstrating proficiency in responsive design and modern web development practices",
     ],
-    link: "https://drive.google.com/file/d/1c8fI0hR51rRdh_R9Ly4FuApqlUFwqwrk/view?usp=drive_link",
+    link: "",
     icon: Award,
   },
   {
