@@ -17,9 +17,30 @@ import {
   CloudLightning,
   BookOpen,
   GraduationCap,
+  Utensils ,
 } from "lucide-react"
 
 const projects = [
+  {
+    title: "Learn Hub Platform",
+    description:
+      "Developed a fully responsive educational platform serving 100+ users with course listings, registration forms, and interactive content. Implemented mobile-first design achieving 98% cross-browser compatibility and 3-second average page load time.",
+    tools: ["HTML", "CSS", "JavaScript", "Git", "Git Hup"],
+    github: "https://github.com/seifeldeen-div/learnHub-Platform",
+    live: "https://seifeldeen-div.github.io/learnHub-Platform/",
+    icon: GraduationCap,
+    accent: "170",
+  },
+  {
+    title: "WeatherPro Web Mobile",
+    description:
+      "WeatherPro is a responsive weather web application that provides real-time weather updates using external APIs. The project allows users to search for any city worldwide and displays detailed weather information ",
+    tools: ["HTML", "CSS", "JavaScript", "Git", "Git Hup"],
+    github: "https://github.com/seifeldeen-div/Weather-App",
+    live: "https://seifeldeen-div.github.io/Weather-App/",
+    icon: CloudLightning,
+    accent: "170",
+  },
   {
     title: "MediCare+ Clinic",
     description:
@@ -61,25 +82,15 @@ const projects = [
     accent: "170",
   },
   {
-    title: "WeatherPro Web Mobile",
+    title: "Food Lover Restaurant",
     description:
-      "WeatherPro is a responsive weather web application that provides real-time weather updates using external APIs. The project allows users to search for any city worldwide and displays detailed weather information ",
+      "Developed a full-featured restaurant web application that simulates real world online ordering and table booking. The project includes user authentication, product listing with category filtering, a dynamic shopping cart with tax calculation, favorites system, and table reservation management",
     tools: ["HTML", "CSS", "JavaScript", "Git", "Git Hup"],
-    github: "https://github.com/seifeldeen-div/Weather-App",
-    live: "https://seifeldeen-div.github.io/Weather-App/",
-    icon: CloudLightning,
+    github: "https://github.com/seifeldeen-div/food-lover-restaurant",
+    live: "https://seifeldeen-div.github.io/food-lover-restaurant/",
+    icon: Utensils,
     accent: "170",
   },
-  {
-    title: "Learn Hub Platform",
-    description:
-      "Developed a fully responsive educational platform serving 100+ users with course listings, registration forms, and interactive content. Implemented mobile-first design achieving 98% cross-browser compatibility and 3-second average page load time.",
-    tools: ["HTML", "CSS", "JavaScript", "Git", "Git Hup"],
-    github: "https://github.com/seifeldeen-div/learnHub-Platform",
-    live: "https://seifeldeen-div.github.io/learnHub-Platform/",
-    icon: GraduationCap,
-    accent: "170",
-  }
 ]
 
 export default function ProjectsSection() {

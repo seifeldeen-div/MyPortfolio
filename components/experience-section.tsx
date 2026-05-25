@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import { Briefcase, GraduationCap, Award } from "lucide-react"
+import { Briefcase, GraduationCap, Award, ExternalLink } from "lucide-react"
 
 const timeline = [
   {
@@ -28,6 +28,23 @@ const timeline = [
       "Completed 120+ hours of intensive training in HTML, CSS, JavaScript, and Bootstrap",
       "Built 6+ projects demonstrating proficiency in responsive design and modern web development practices",
     ],
+    link: "",
+    icon: Award,
+  },
+  {
+    type: "cert",
+    title: "Frontend Development Intern",
+    organization: "Codeveda",
+    location: "Egypt",
+    date: "Oct 2025 - De 2026",
+    details: [
+      "Completed hands-on frontend internship tasks focused on building real-world UI components using HTML, CSS, JavaScript, and Bootstrap.",
+      "Developed multiple responsive landing pages and small web applications, improving understanding of layout systems, Flexbox, and responsive design principles.",
+      "Collaborated on practice projects to implement reusable UI components and improve code structure and maintainability.",
+      "Gained practical experience in debugging, DOM manipulation, and turning UI designs into functional web pages.",
+      "Built 6+ projects demonstrating proficiency in responsive design and modern web development practices",
+    ],
+    link: "https://drive.google.com/file/d/1c8fI0hR51rRdh_R9Ly4FuApqlUFwqwrk/view?usp=drive_link",
     icon: Award,
   },
   {
@@ -109,30 +126,26 @@ export default function ExperienceSection() {
                   key={item.title}
                   ref={(el) => { itemRefs.current[i] = el }}
                   data-index={i}
-                  className={`relative flex flex-col md:flex-row ${
-                    isLeft ? "md:flex-row" : "md:flex-row-reverse"
-                  }`}
+                  className={`relative flex flex-col md:flex-row ${isLeft ? "md:flex-row" : "md:flex-row-reverse"
+                    }`}
                 >
                   {/* Icon on timeline */}
                   <div
-                    className={`absolute left-6 z-10 flex h-12 w-12 -translate-x-1/2 items-center justify-center rounded-xl border bg-deep-navy transition-all duration-500 md:left-1/2 ${
-                      isVis
-                        ? "border-primary/60 shadow-[0_0_20px_oklch(0.78_0.15_195/0.3)] scale-100"
-                        : "border-border scale-75 opacity-50"
-                    }`}
+                    className={`absolute left-6 z-10 flex h-12 w-12 -translate-x-1/2 items-center justify-center rounded-xl border bg-deep-navy transition-all duration-500 md:left-1/2 ${isVis
+                      ? "border-primary/60 shadow-[0_0_20px_oklch(0.78_0.15_195/0.3)] scale-100"
+                      : "border-border scale-75 opacity-50"
+                      }`}
                   >
                     <TimelineIcon className={`h-5 w-5 transition-colors duration-500 ${isVis ? "text-primary" : "text-muted-foreground"}`} />
                   </div>
 
                   {/* Content */}
                   <div
-                    className={`ml-16 w-full transition-all duration-700 md:ml-0 md:w-[calc(50%-2rem)] ${
-                      isLeft ? "md:pr-8" : "md:pl-8"
-                    } ${
-                      isVis
+                    className={`ml-16 w-full transition-all duration-700 md:ml-0 md:w-[calc(50%-2rem)] ${isLeft ? "md:pr-8" : "md:pl-8"
+                      } ${isVis
                         ? "translate-y-0 opacity-100"
                         : `translate-y-8 opacity-0 ${isLeft ? "md:-translate-x-4" : "md:translate-x-4"}`
-                    }`}
+                      }`}
                     style={{ transitionDelay: `${i * 150}ms` }}
                   >
                     <div className="group rounded-2xl border border-border bg-card/50 p-6 backdrop-blur-sm transition-all duration-500 hover:border-primary/40 hover:shadow-[0_0_25px_oklch(0.78_0.15_195/0.1)]">
@@ -153,6 +166,17 @@ export default function ExperienceSection() {
                           </li>
                         ))}
                       </ul>
+                      {item.link && (
+                        <a
+                          href={item.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-4 inline-flex items-center gap-2 rounded-lg border border-primary/40 bg-primary/10 px-4 py-2 font-mono text-xs text-primary transition-all duration-300 hover:bg-primary/20 hover:shadow-[0_0_15px_oklch(0.78_0.15_195/0.2)]"
+                        >
+                          <ExternalLink className="h-3 w-3" />
+                          View Certificate
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -164,6 +188,6 @@ export default function ExperienceSection() {
           <div className="absolute bottom-0 left-6 h-3 w-3 -translate-x-1/2 rounded-full border-2 border-primary bg-deep-navy shadow-[0_0_10px_oklch(0.78_0.15_195/0.3)] md:left-1/2" aria-hidden="true" />
         </div>
       </div>
-    </section>
+    </section >
   )
 }
