@@ -11,6 +11,7 @@ const skills = [
   { name: "Python", level: 70, category: "language", color: "220" },
   { name: "C++", level: 70, category: "language", color: "240" },
   { name: "Bootstrap", level: 80, category: "framework", color: "260" },
+  { name: "Tailwind", level: 70, category: "framework", color: "240" },
   { name: "Git & GitHub", level: 85, category: "tool", color: "195" },
   { name: "Trae", level: 90, category: "tool", color: "210" },
   { name: "VS Code", level: 95, category: "tool", color: "210" },
