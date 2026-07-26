@@ -98,9 +98,9 @@ export default function Footer() {
         {/* Bottom */}
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="flex items-center gap-1 font-mono text-xs text-muted-foreground">
-            Designed & Built with{" "}
-            <Heart className="h-3 w-3 text-primary" />
+            Designed & Built {" "}
             by Seif Eldeen Mohamed Attia
+            <Heart className="h-3 w-3 text-primary" />
           </p>
           <p className="font-mono text-xs text-muted-foreground">
             &copy; {new Date().getFullYear()} All Rights Reserved

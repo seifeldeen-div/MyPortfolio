@@ -17,7 +17,8 @@ import {
   CloudLightning,
   BookOpen,
   GraduationCap,
-  Utensils ,
+  Utensils,
+  Timer,
 } from "lucide-react"
 
 const projects = [
@@ -90,6 +91,25 @@ const projects = [
     live: "https://seifeldeen-div.github.io/food-lover-restaurant/",
     icon: Utensils,
     accent: "170",
+  },
+  {
+    title: "StudyPrime Web App",
+    description:
+      "StudyPrime — A productivity-focused Progressive Web Application (PWA) designed to help students stay organized and focused. Built features including Pomodoro Timer, To-Do List, Goals Tracker, Notes, Stopwatch, Countdown Timer, Dark Mode, and offline support using Service Workers and Cache Storage, delivering a fast, responsive, and installable web experience.",
+    tools: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PWA",
+      "Service Worker",
+      "Cache Management",
+      "Git",
+      "GitHub"
+    ],
+    github: "https://github.com/seifeldeen-div/StudyPrime",
+    live: "https://seifeldeen-div.github.io/StudyPrime/",
+    icon: Timer,
+    accent: "210",
   },
 ]
 
