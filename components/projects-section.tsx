@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 // import { ExternalLink, Github, Layers, Globe, ShoppingCart, Stethoscope } from "lucide-react"
+import { SiTailwindcss } from "react-icons/si";
 import {
   ExternalLink,
   Github,
@@ -20,6 +21,7 @@ import {
   Utensils,
   Timer,
 } from "lucide-react"
+
 
 const projects = [
   {
@@ -109,6 +111,25 @@ const projects = [
     github: "https://github.com/seifeldeen-div/StudyPrime",
     live: "https://seifeldeen-div.github.io/StudyPrime/",
     icon: Timer,
+    accent: "210",
+  },
+  {
+    title: "Tailwind Project",
+    description:
+      "A modern and fully responsive AI landing page built with React, Vite, Tailwind CSS, and Bootstrap. The project features reusable components, smooth scrolling navigation, interactive UI sections, a mobile-first responsive design, and a clean, scalable code structure following modern front-end development practices.",
+    tools: [
+      "React",
+      "CSS",
+      "JavaScript",
+      "Vite",
+      "Tailwind",
+      "Responsive Design",
+      "Git",
+      "GitHub"
+    ],
+    github: "https://github.com/seifeldeen-div/TailwindProject",
+    live: "https://tailwind-project-lake-eta.vercel.app/",
+    icon: SiTailwindcss,
     accent: "210",
   },
 ]
